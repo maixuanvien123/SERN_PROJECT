@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "jwt nodejs react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./src/server.js",
+    "dev": "nodemon --exec npm start"
+  },
+  "author": "Xuan Vien",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "7.15.4",
+    "body-parser": "1.19.1",
+    "dotenv": "10.0.0",
+    "ejs": "3.1.6",
+    "express": "4.17.2",
+    "nodemon": "2.0.15",
+    "npm": "^6.14.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1"
+  }
+}
